@@ -262,7 +262,7 @@ $ cd ~
 ```
 Clone the git project:
 ```
-$ git clone https://github.com/InnovateAsterisk/Browser-Phone.git
+$ git clone https://github.com/tanvir-siddique/Browser-Phone.git
 ```
 Copy the config files:
 ```
@@ -273,7 +273,7 @@ Clear the existing files in static-http:
 $ sudo rm /var/lib/asterisk/static-http/*
 ```
 Copy the web pages:
-> Note: You can skip this step and simply use the hosted pages at: https://www.innovateasterisk.com/phone/ (contains a welcome screen). This page uses a Let's Encrypt Certificate, but you will still need to have a secure connection to your Asterisk box.
+> Note: You can skip this step and simply use the hosted pages at: https://phone.tanvir.biz/ (contains a welcome screen). This page uses a Let's Encrypt Certificate, but you will still need to have a secure connection to your Asterisk box.
 ```
 $ sudo cp /home/pi/Browser-Phone/Phone/* /var/lib/asterisk/static-http/
 ```
@@ -552,20 +552,20 @@ $ sudo asterisk -r
 
 ## Screenshots
 
-![Audio Call with 3rd Party Conference](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/AudioCall_Conference.jpg)
+![Audio Call with 3rd Party Conference](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/AudioCall_Conference.jpg)
 
-![Audio Call with Transfer](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/AudioCall_Transfer.jpg)
+![Audio Call with Transfer](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/AudioCall_Transfer.jpg)
 
-![Buddy Stream](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/Buddy_Stream.jpg)
+![Buddy Stream](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/Buddy_Stream.jpg)
 
-![Message Dictate](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/DictateMessage.jpg)
+![Message Dictate](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/DictateMessage.jpg)
 
-![Call Stats](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/InCall_Stats.png)
+![Call Stats](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/InCall_Stats.png)
 
-![Call Recording Format](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/Recording_Format.jpg)
+![Call Recording Format](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/Recording_Format.jpg)
 
-![Video Call Presenting Camera](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/VideoCall_PresentCamera.jpg)
+![Video Call Presenting Camera](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/VideoCall_PresentCamera.jpg)
 
-![Video Call Presenting Scratchpad](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/VideoCall_PresentScratchpad.jpg)
+![Video Call Presenting Scratchpad](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/VideoCall_PresentScratchpad.jpg)
 
-![Video Call Presenting Video File](https://github.com/InnovateAsterisk/Browser-Phone/blob/master/Screenshots/VideoCall_PresentVideo.jpg)
+![Video Call Presenting Video File](https://github.com/tanvir-siddique/Browser-Phone/blob/master/Screenshots/VideoCall_PresentVideo.jpg)
